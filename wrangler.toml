@@ -7,7 +7,7 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "libcuda.so"
+CUSTOM_DOMAIN = "luyb.us.kg"
 
 [env.dev.vars]
 MODE = "debug"
@@ -17,13 +17,13 @@ CUSTOM_DOMAIN = "exmaple.com"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.libcuda.so", custom_domain = true },
-#   { pattern = "quay.libcuda.so", custom_domain = true },
-#   { pattern = "gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s-gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s.libcuda.so", custom_domain = true },
-#   { pattern = "ghcr.libcuda.so", custom_domain = true },
-#   { pattern = "cloudsmith.libcuda.so", custom_domain = true },
+#   { pattern = "docker.luyb.us.kg", custom_domain = true },
+#   { pattern = "quay.luyb.us.kg", custom_domain = true },
+#   { pattern = "gcr.luyb.us.kg", custom_domain = true },
+#   { pattern = "k8s-gcr.luyb.us.kg", custom_domain = true },
+#   { pattern = "k8s.luyb.us.kg", custom_domain = true },
+#   { pattern = "ghcr.luyb.us.kg", custom_domain = true },
+#   { pattern = "cloudsmith.luyb.us.kg", custom_domain = true },
 # ]
 
 [env.production.vars]
