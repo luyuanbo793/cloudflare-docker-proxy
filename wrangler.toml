@@ -17,13 +17,13 @@ CUSTOM_DOMAIN = "exmaple.com"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.luyb.us.kg", custom_domain = true },
-#   { pattern = "quay.luyb.us.kg", custom_domain = true },
-#   { pattern = "gcr.luyb.us.kg", custom_domain = true },
-#   { pattern = "k8s-gcr.luyb.us.kg", custom_domain = true },
-#   { pattern = "k8s.luyb.us.kg", custom_domain = true },
-#   { pattern = "ghcr.luyb.us.kg", custom_domain = true },
-#   { pattern = "cloudsmith.luyb.us.kg", custom_domain = true },
+#   { pattern = "docker.", custom_domain = true },
+#   { pattern = "quay.", custom_domain = true },
+#   { pattern = "gcr.", custom_domain = true },
+#   { pattern = "k8s-gcr.", custom_domain = true },
+#   { pattern = "k8s.", custom_domain = true },
+#   { pattern = "ghcr.", custom_domain = true },
+#   { pattern = "cloudsmith.", custom_domain = true },
 # ]
 
 [env.production.vars]
