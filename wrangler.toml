@@ -20,7 +20,7 @@ name = "cloudflare-docker-proxy"
 #   { pattern = "docker.luyb.us", custom_domain = true },
 #   { pattern = "quay.luyb.us", custom_domain = true },
 #   { pattern = "gcr.luyb.us", custom_domain = true },
-#   { pattern = "k8s-gcr.", custom_domain = true },
+#   { pattern = "k8s-gcr.luyb.us", custom_domain = true },
 #   { pattern = "k8s.luyb.us", custom_domain = true },
 #   { pattern = "ghcr.luyb.us", custom_domain = true },
 #   { pattern = "cloudsmith.luyb.us", custom_domain = true },
