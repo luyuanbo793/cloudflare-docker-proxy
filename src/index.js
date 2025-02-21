@@ -27,9 +27,9 @@ const tipsHtmlContent = `
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="docker|dockerhub|vps|老E的博客"> 
-<meta name="description" content="老E的博客-appscross.com-VPS | AIGC | Proxy | TVBox">
-<title>Docker镜像加速-老E的博客</title>
+<meta name="keywords" content="docker|dockerhub|vps|加速"> 
+<meta name="description" content="加速-https://hzrqc46we3.feishu.cn/docx/NMvbdjJtnoKeEwx5JaOc1qevnCg-VPS | AIGC | Proxy | TVBox">
+<title>Docker镜像加速-加速</title>
 <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -111,7 +111,7 @@ const tipsHtmlContent = `
 </head>
 <body>
 <div class="container">
-<center><h2><a href="https://appscross.com" target="_blank">自用</a> Docker Hub 镜像加速</h2></center>
+<center><h2><a href="https://hzrqc46we3.feishu.cn/docx/NMvbdjJtnoKeEwx5JaOc1qevnCg" target="_blank">自用</a> Docker Hub 镜像加速</h2></center>
 <h3>为了加速镜像拉取，使用以下命令设置<b>registry mirror</b></h3>
 <pre><code>
 mkdir -p /etc/docker</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
@@ -131,7 +131,7 @@ docker pull qdocker.luyb.us.kg/library/mysql:8.0</code><button class="copy-butto
 <p>说明：library是一个特殊的命名空间，它代表的是官方镜像。</p>
 </div>
 <div class="footer">
-    &copy; <a href="https://appscross.com" target="_blank">老E的博客</a>自建镜像，请勿滥用。
+    &copy; <a href="https://hzrqc46we3.feishu.cn/docx/NMvbdjJtnoKeEwx5JaOc1qevnCg" target="_blank">老E的博客</a>自建镜像，请勿滥用。
 </div>
 <script>
         function copyCode(button) {
