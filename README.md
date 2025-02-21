@@ -33,7 +33,7 @@
      "docker.luyb.us.kg": "https://registry-1.docker.io",
      "quay.luyb.us.kg": "https://quay.io",
      "gcr.luyb.us.kg": "https://k8s.gcr.io",
-     "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
+     "k8s-gcr.luyb.us.kg": "https://k8s.gcr.io",
      "ghcr.luyb.us.kg": "https://ghcr.io",
    };
    ```
