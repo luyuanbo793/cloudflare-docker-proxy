@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  ["docker.luyb.us.kg"]: dockerHub,
-  ["quay.luyb.us.kg"]: "https://quay.io",
-  ["gcr.luyb.us.kg"]: "https://gcr.io",
-  ["k8s-gcr.luyb.us.kg"]: "https://k8s.gcr.io",
-  ["k8s.luyb.us.kg"]: "https://registry.k8s.io",
-  ["ghcr.luyb.us.kg"]: "https://ghcr.io",
-  ["cloudsmith.luyb.us.kg"]: "https://docker.cloudsmith.io",
-  ["ecr.luyb.us.kg"]: "https://public.ecr.aws",
+  ["docker.luyb2.us.kg"]: dockerHub,
+  ["quay.luyb2.us.kg"]: "https://quay.io",
+  ["gcr.luyb2.us.kg"]: "https://gcr.io",
+  ["k8s-gcr.luyb2.us.kg"]: "https://k8s.gcr.io",
+  ["k8s.luyb2.us.kg"]: "https://registry.k8s.io",
+  ["ghcr.luyb2.us.kg"]: "https://ghcr.io",
+  ["cloudsmith.luyb2.us.kg"]: "https://docker.cloudsmith.io",
+  ["ecr.luyb2.us.kg"]: "https://public.ecr.aws",
 
   // staging
-  ["docker-staging.luyb.us.kg"]: dockerHub,
+  ["docker-staging.luyb2.us.kg"]: dockerHub,
 };
 
 // 将 tips.html 的内容作为字符串嵌入
@@ -127,7 +127,7 @@ systemctl daemon-reload</code><button class="copy-button" onclick="copyCode(this
 systemctl restart docker</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
 <p><h3>不用设置环境也可以直接使用，用法示例：</h3></p>
 <pre><code>
-docker pull qdocker.luyb.us.kg/library/mysql:8.0</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
+docker pull qdocker.luyb2.us.kg/library/mysql:8.0</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
 <p>说明：library是一个特殊的命名空间，它代表的是官方镜像。</p>
 </div>
 <div class="footer">
