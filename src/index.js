@@ -3,6 +3,23 @@ addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
 });
 
+// 将 tips.html 的内容作为字符串嵌入
+const tipsHtmlContent = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips Page</title>
+</head>
+<body>
+    <!-- 这里是你的 tips.html 的具体内容 -->
+    <h1>这是提示页面</h1>
+    <p>这里可以添加详细的提示信息</p>
+</body>
+</html>
+`;
+
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
@@ -32,6 +49,17 @@ function routeByHosts(host) {
 
 async function handleRequest(request) {
   const url = new URL(request.url);
+
+  // 检查是否是根路径请求
+  if (url.pathname === "/") {
+    return new Response(tipsHtmlContent, {
+      status: 200,
+      headers: {
+        "content-type": "text/html"
+      }
+    });
+  }
+
   const upstream = routeByHosts(url.hostname);
   if (upstream === "") {
     return new Response(
