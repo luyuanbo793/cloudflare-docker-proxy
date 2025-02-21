@@ -7,7 +7,7 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "luyb.us.kg"
+CUSTOM_DOMAIN = "luyb2.us.kg"
 
 [env.dev.vars]
 MODE = "debug"
@@ -17,13 +17,13 @@ CUSTOM_DOMAIN = "exmaple.com"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.luyb.us.kg", custom_domain = true },
-#   { pattern = "quay.luyb.us.kg", custom_domain = true },
-#   { pattern = "gcr.luyb.us.kg", custom_domain = true },
-#   { pattern = "k8s-gcr.luyb.us.kg", custom_domain = true },
-#   { pattern = "k8s.luyb.us.kg", custom_domain = true },
-#   { pattern = "ghcr.luyb.us.kg", custom_domain = true },
-#   { pattern = "cloudsmith.luyb.us.kg", custom_domain = true },
+#   { pattern = "docker.luyb2.us.kg", custom_domain = true },
+#   { pattern = "quay.luyb2.us.kg", custom_domain = true },
+#   { pattern = "gcr.luyb2.us.kg", custom_domain = true },
+#   { pattern = "k8s-gcr.luyb2.us.kg", custom_domain = true },
+#   { pattern = "k8s.luyb2.us.kg", custom_domain = true },
+#   { pattern = "ghcr.luyb2.us.kg", custom_domain = true },
+#   { pattern = "cloudsmith.luyb2.us.kg", custom_domain = true },
 # ]
 
 [env.production.vars]
